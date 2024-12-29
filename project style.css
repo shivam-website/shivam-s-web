@@ -1,70 +1,67 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f9;
-  text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    text-align: center;
 }
 
 
 
 h1 {
-  margin-top: 20px;
-  font-size: 2.5em;
-  color: #333;
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: #333;
 }
 
 form {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  display: inline-block;
-  text-align: left;
-  max-width: 400px;
-  width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
 }
 
 input, select, textarea {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
 input[type="submit"] {
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 input[type="submit"]:hover {
-  background-color: #0056b3;
+    background-color: #0056b3;
 }
 
-form iframe {
-  width: auto; /* Makes the iframe fit within the form width */
-  height: auto; /* Maintains aspect ratio */
-  max-width: 700px; /* Ensures it doesn't exceed original width */
-  border-radius: 10px;
+iframe {
+    margin: 20px 0;
+    border-radius: 10px;
 }
-
 
 footer a {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #007BFF;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 18px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
 }
 
 footer a:hover {
-  background-color: #0056b3;
+    background-color: #0056b3;
 }
