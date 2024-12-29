@@ -46,10 +46,13 @@ input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-iframe {
-    margin: 20px 0;
+form iframe {
+    width: auto; 
+    height: auto;
+    max-width: 560px;
     border-radius: 10px;
 }
+
 
 footer a {
     display: inline-block;
