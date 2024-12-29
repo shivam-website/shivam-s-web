@@ -12,17 +12,18 @@ h1 {
     color: #333;
 }
 
-form {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
+form iframe {
+    width: 100%; 
+    max-width: 560px; /* Ensure it does not exceed this width */
+    height: auto;     /* Keep the aspect ratio */
+    max-height: 315px; /* Keep the video from being too tall */
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    display: inline-block;
-    text-align: left;
-    max-width: 400px;
-    width: 100%;
-    margin-top: 30px;
+    margin: 20px 0; /* Space around the iframe */
+    display: block;  /* Ensures it behaves like a block-level element */
+    margin-left: auto;
+    margin-right: auto; /* Centers the iframe */
 }
+
 
 input, select, textarea {
     width: 100%;
